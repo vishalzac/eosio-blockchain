@@ -1,0 +1,97 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "getuser",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "setuser",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "phone_number",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "tuple_string_string",
+            "base": "",
+            "fields": [
+                {
+                    "name": "field_0",
+                    "type": "string"
+                },
+                {
+                    "name": "field_1",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "user",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "phone_number",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "getuser",
+            "type": "getuser",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setuser",
+            "type": "setuser",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "users",
+            "type": "user",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": [
+        {
+            "name": "getuser",
+            "result_type": "tuple_string_string"
+        }
+    ]
+}
