@@ -1,0 +1,1 @@
+For dealing with the EOSIO blockchain, we have written the smart contract code for this project in C++. Our local EOSIO blockchain is currently operating and giving us access to our local private key and wallet name. Additionally, EOSIO enables us to create smart contracts for many networks. 
